@@ -1,7 +1,15 @@
+import {Home} from './pages/Home'
+import { NewRoow } from "./pages/NewRoom";
+import {BrowserRouter, Route} from 'react-router-dom';
 
 function App() {
   return (
-   <h1>Hello World</h1>
+  //  <Home />
+    <BrowserRouter>
+      <Route path="/" exact component={Home} />
+      <Route path="/rooms/new" component={NewRoow} />
+    </BrowserRouter>
+  
   );
 }
 
