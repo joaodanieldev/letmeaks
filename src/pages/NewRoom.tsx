@@ -5,8 +5,14 @@ import logoImg from '../assets/images/logo.svg';
 import googleImg from '../assets/images/google-icon.svg';
 import '../styles/auth.scss'
 import { Button } from '../components/Button';
+// import { useContext } from 'react';
+// import { AuthContext } from '../context/AuthContext';
+// import { useAuth } from '../hooks/useAuth';
 
 export function NewRoow() {
+
+  // const { user } = useAuth()
+  
   return(
     <div id="page-auth">
       <aside>
